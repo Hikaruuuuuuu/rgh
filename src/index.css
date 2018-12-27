@@ -5,3 +5,33 @@
     background: paleturquoise;
 }
 
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    height: 45px;
+    background: paleturquoise;
+}
+
+.main{
+    width: 100%;
+    flex: 1;
+    overflow: auto;
+    background: palevioletred;
+}
+
+.footer{
+    width: 100%;
+    height: 45px;
+    background: palegoldenrod;
+}
